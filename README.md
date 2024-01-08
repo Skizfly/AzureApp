@@ -82,12 +82,35 @@ With Visual Studio now active, begin by initiating a new project. Opt for the AS
 </p>
 <br />
 
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/834941e7-4bb1-4096-90fd-f06d61e442d3)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/665e7733-7cac-453c-9adb-3639be06e93a)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/f7a4145b-c7ec-43fa-9921-24fae1534113)
+
+
 <p>
 </p>
 <p>
-Upon successful deployment, access the resource and observe the generated URL for your Azure web app. Execute a click on the link, initiating a new window. At this juncture, Azure eagerly awaits the coding input from your developed web application. Now, let's seamlessly transition to the subsequent phase of linking the two entities.
+With our project now created, your screen should resemble the configuration in the first screenshot above, showcasing some pre-built framework. For the purposes of this demonstration, let's assume we've already constructed our web app. Now, let's open PowerShell and execute the command: `dotnet run`. This command initiates the construction of the app framework. Upon completion, a webpage will appear, displaying your web application. Once this step is accomplished, we can seamlessly progress to the deployment phase on Azure.
 </p>
 <br />
+
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/d592f58a-476b-4b0e-96c1-3b2dba3eabe4)
+
+<p>
+</p>
+<p>
+Let's initiate the deployment to Azure. Navigate to the Solution Explorer, right-click on your web app's name, and choose the "Publish" option.
+</p>
+<br />
+
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/093a0ebc-234b-4688-8ae9-dd5c31616edb)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/fbf50dda-aea0-48fe-ab81-4b7b4e3bbbd9)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/f4d26f00-c7c4-4d18-b042-297d43bb3e62)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/dc38bade-05d1-4819-a82d-d424879af452)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/541a55d8-fcef-4590-913f-8cb87539b9c1)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/97ccb735-feef-44a6-877a-d34509bb73e7)
+
+
 
 <p>
 </p>
