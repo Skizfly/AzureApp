@@ -26,7 +26,8 @@ Welcome to my tutorial on deploying a web app to Azure. I will illustrate the pr
 
 <h2>Azure Configuration Steps</h2>
 
-![image](https://github.com/Skizfly/configuring-AD/assets/153954157/9afdacc9-95dd-470e-8a82-f554aa772d73)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/5708955e-78a2-4122-8509-affbf07fc76c)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/125f333e-d04b-4171-8c27-87375e20c5e9)
 
 <p>
 </p>
