@@ -32,18 +32,19 @@ Welcome to my tutorial on deploying a web app to Azure. I will illustrate the pr
 <p>
 </p>
 <p>
-Before utilizing the VMs, it's crucial to configure the domain controller VM's IP address as static. By default, if both VMs have dynamic IPs on the same virtual network, communication is hindered. Failing to make this adjustment may impede the client from joining the domain later. In the Azure portal, navigate to the Networking tab of the domain controller VM. Access the Network Interface, open the IP configurations tab, switch the Assignment to Static, and save changes. This ensures the domain controller has a static IP, serving as a reference for future configurations.
+Before embarking on the setup, it's prudent to initiate a resource group for meticulous organization. Once that's established, proceed to the quest for "app services" in your Azure environment.
 </p>
 <br />
 
-![image](https://github.com/Skizfly/configuring-AD/assets/153954157/11f0fef5-5a22-4c5a-a150-1a85917af136)
-![image](https://github.com/Skizfly/configuring-AD/assets/153954157/92abd55f-e056-4294-aa20-4ec755f6cf96)
-![image](https://github.com/Skizfly/configuring-AD/assets/153954157/32d96c7f-93d2-4372-a9d4-90a2ff360f6b)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/757cb988-1f6d-4c85-86b0-bd0e6aa11f90)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/42e75c20-af3f-4d43-acf2-9db274d9dc53)
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/0c2fc232-7fdd-4cbb-a516-b29e46893ca2)
+
 
 <p>
 </p>
 <p>
-Following the static IP configuration, proceed to log in to the client VM and check connectivity to the domain controller. When using "ping -t" with the domain controller's private IP address, it might show a connection timeout. To resolve this, on the domain controller VM, enable ICMPv4 in the local Windows Firewall. Open Windows Defender Firewall using "wf.msc" in the search bar. In the Inbound Rules section, enable the Core Networking Diagnostics - ICMP Echo Request rules. Returning to the client VM should now demonstrate successful pinging without errors.
+Upon reaching the "App Services" section, click on the "Create" button, then select "Web App" from the dropdown menu (take note of other options and choose accordingly for your project). Assign a distinctive name to your app and configure the settings as per your requirements. Once done, proceed by clicking on "Review" and then "Create." Now, patiently wait for the deployment to complete and watch for the confirmation message.
 </p>
 <br />
 
