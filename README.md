@@ -108,15 +108,37 @@ Let's initiate the deployment to Azure. Navigate to the Solution Explorer, right
 ![image](https://github.com/Skizfly/AzureAppService/assets/153954157/f4d26f00-c7c4-4d18-b042-297d43bb3e62)
 ![image](https://github.com/Skizfly/AzureAppService/assets/153954157/dc38bade-05d1-4819-a82d-d424879af452)
 ![image](https://github.com/Skizfly/AzureAppService/assets/153954157/541a55d8-fcef-4590-913f-8cb87539b9c1)
-![image](https://github.com/Skizfly/AzureAppService/assets/153954157/97ccb735-feef-44a6-877a-d34509bb73e7)
-
-
 
 <p>
 </p>
 <p>
-Upon successful deployment, access the resource and observe the generated URL for your Azure web app. Execute a click on the link, initiating a new window. At this juncture, Azure eagerly awaits the coding input from your developed web application. Now, let's seamlessly transition to the subsequent phase of linking the two entities.
+Let's follow a series of steps to guarantee a successful deployment to Azure:
+
+1. Choose the Azure option as your publish location.
+2. Select your Azure service.
+3. Since we've created a web app in Azure earlier, log in to your Azure account (located at the top-right corner). Once logged in, navigate through your resource group to select the specific web app you've created.
+4. Click "Finish," and Visual Studio will initiate the deployment process.
+5. Once you see the "Ready to Publish" message, proceed and click the "Publish" button.
 </p>
 <br />
-<h2>A crucial point to consider</h2>
-Upon relogging into the domain controller VM via Remote Desktop Connection, ensure logging in within the context of the domain. Input the domain path followed by the username, like mydomain.com\labuser. For instance, in my scenario, it is lyanceytest.com\labuser. With Active Directory installed, future configurations can be applied in subsequent labs, and the client VM will seamlessly join the created domain.
+
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/97ccb735-feef-44a6-877a-d34509bb73e7)
+
+<p>
+</p>
+<p>
+Upon completion of the publishing process, a new window will emerge. Take note of the updated URL, such as filefeeder.azurewebsites.net (replace it with your unique web address). To confirm, let's head back to our Azure portal and verify the changes.
+</p>
+<br />
+
+![image](https://github.com/Skizfly/AzureAppService/assets/153954157/d70a1831-65d8-44c6-87e4-f02439ec3b62)
+
+
+<p>
+</p>
+<p>
+Within the Azure portal, navigate through your resource group to locate your Azure web app. Open the resource, find the default domain name, and click on the link. Your created web app should then appear in a new window within the Azure environment.
+</p>
+<br />
+<h2>A Conclusion</h2>
+In this tutorial, we embarked on a journey to deploy a web app to Azure, covering key steps and considerations. We started by creating a resource group for organization, explored the setup of Azure Web App, and integrated it with Visual Studio. The development process included crafting the app, initiating it with PowerShell, and viewing the results locally. Transitioning to Azure, we navigated through essential deployment steps, ensuring seamless integration with our Azure resources. Lastly, we verified the deployment's success by checking the updated URL in the Azure portal. Through this journey, we gained insights into deploying, managing, and monitoring web apps on the Azure platform.
